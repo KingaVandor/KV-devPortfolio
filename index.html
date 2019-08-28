@@ -4,46 +4,60 @@
 <head>
   <title>kingav portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
-  </head>
+
+</head>
 
 <body>
 
   <nav id="navbar">
-    <div><a class="nav-link" href="#welcome-section">Welcome</a></div>
-    <div><a class="nav-link" href="#projects">Projects</a></div>
-    <div><a class="nav-link" href="#contacts-section">Contact</a></div>
+    <div class="left">
+      <div><a class="nav-link main-link" href="#welcome-section">Welcome</a></div>
+      <div><a class="nav-link main-link" href="#projects-section">Projects</a></div>
+      <div><a class="nav-link main-link" href="#contacts-section">Contact</a></div>
+    </div>
+    <div class="right"><a class="nav-link about-link" href="#about-section">About</a></div>
   </nav>
 
-  <main>
-    <section id="background">
-      <img id="background-image" src="https://www.dropbox.com/s/ahaellqz6cese37/hosta3L.jpg?dl=1" alt="background-image">
-    </section>
+  <div id="content">
+    <main id="main-section">
+      <section id="background">
+        <img id="background-image" src="https://www.dropbox.com/s/ahaellqz6cese37/hosta3L.jpg?dl=1" alt="background-image">
+      </section>
 
-    <section id="welcome-section" class="page">
-      <div class="transparent-blackstrip">
-        <div class="container-box">
-          <h1 id="title1" class="text">Hello, I am <br> Kinga Vandor front end developer.</h1>
-          <h3 id="title2" class="text"> Scroll down for my <a href="#projects">projects</a> and <a href="#contacts-section">get in touch</a> if you like them.</h3>
+      <section id="welcome-section" class="page">
+        <div class="transparent-blackstrip">
+          <div class="container-box">
+            <h1 id="title1" class="text">Hello, I am <br> Kinga Vandor <br>front end developer.</h1>
+            <h5 id="title2" class="text"> Scroll down for my <a href="#projects-section">projects</a> and <a href="#contacts-section">get in touch</a> if you like them.</h5>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="projects" class="page">
-      <div class="transparent-blackstrip">
-        <div class="container-box">
-          <h1 class="text">Projects</h1>
-          <div class="blackstrip">
-            <div class="inner-flex-container">
-              <div class="tile">
-                <a href="https://codepen.io/KingaV/pen/yZJqjE" target="_blank">
-                  <img  class="icon"  src="https://www.dropbox.com/s/przy4abomkc783p/rosa%20rugosa.jpg?dl=1" alt="Ink Kooky">
-                  <span class="label">Online Gallery</span>
+      <section id="projects-section" class="page">
+        <div class="transparent-blackstrip">
+          <div class="container-box">
+            <h1 class="text">Projects</h1>
+            <div class="blackstrip">
+              <div class="inner-flex-container">
+                <div class="tile">
+                  <a href="https://codepen.io/KingaV/pen/yZJqjE" target="_blank">
+                  <img  class="icon"  src="https://www.dropbox.com/s/wumwd7isci2woo1/rosa%20cropped.jpg?dl=1" alt="Ink Kooky">
+                  <div class="label">
+                  <a>Ink Kooky Online Gallery</a>
+                  </div>
                </a>
-              </div>
-              <div class="tile"><a href="https://codepen.io/KingaV/pen/jdWNVw" target="_blank">
-    <img class="icon" src="https://images0.persgroep.net/rcs/m_bFhAHVNuY42Y15MyOhLZyf5k8/diocontent/108171505/_fitwidth/763?appId=e9b4e2a1869038ffcaf318a6d1463b0b&quality=0.8" alt="Mien Ruys"><span class="label">Mien Ruys Tribute</span></a></div>
-              <div class="tile"><a href="https://codepen.io/KingaV/pen/VRLKma" target="_blank">
-    <img class="icon" src="https://i-h2.pinimg.com/564x/76/b4/1c/76b41c8c26cfd33c6477c7b2773aa598.jpg" alt="CSS Colours"><span class="label">CSS Colours</span></a></div>
+                </div>
+                <div class="tile"><a href="https://codepen.io/KingaV/full/rXWGge" target="_blank">
+    <img class="icon" src="https://www.dropbox.com/s/6s129xnhw84b1gg/new%20perennial%20collections%201995%202.jpg?dl=1" alt="Mien Ruys">
+                <div class="label">
+                  <a>Mien Ruys Tribute Page</a>
+                  </div>
+                </a></div>
+                <div class="tile"><a href="https://codepen.io/KingaV/full/VRLKma" target="_blank">
+    <img class="icon" src="https://i-h2.pinimg.com/564x/76/b4/1c/76b41c8c26cfd33c6477c7b2773aa598.jpg" alt="CSS Colours">
+                <div class="label">
+                  <a>Technical Documentation Page</a>
+                  </div>
             </div>
           </div>
         </div>
@@ -55,28 +69,85 @@
         <div class="container-box">
           <h1 class="text">Profiles & contact</h1>
           <div class="blackstrip">
-            <div class="inner-flex-container">
-                            
-              <div class="circle"><a id="profile-link2" href="https://codepen.io/KingaV/#" target="_blank"><span class="iconify" data-icon="simple-icons:codepen"></span></a></div>
-              
-              <div class="circle"><a id="profile-link3" href="https://www.codewars.com/users/KingaVandor" target="_blank"><span class="iconify" data-icon="simple-icons:codewars"></span></a></div>
-              
-              <div class="circle"><a id="profile-link4" href="https://www.freecodecamp.org/fcc8c5be340-f8ea-48be-97b1-ab1d0f23d988" target="_blank"><span class="iconify" data-icon="simple-icons:freecodecamp"></span></a></div>
-              
-              <div class="circle"><a id="profile-link5" href="https://www.codecademy.com/profiles/KingaVandor" target="_blank"><span class="iconify" data-icon="simple-icons:codecademy"></span></a></div>
-              
-              <div class="circle"><a id="profile-link" href="https://github.com/KingaVandor" target="_blank"><span class="iconify" data-icon="fa-brands:github"></span></a></div>
-              
-              <div class="circle"><a id="profile-link1" href="https://www.linkedin.com/in/kinga-vandor-30b31486/" target="_blank"><span class="iconify" data-icon="fa-brands:linkedin"></span></a></div>
+            <div  id="icons"  class="inner-flex-container">
 
+              <div class="circle"><a id="profile-link2" href="https://codepen.io/KingaV/#" target="_blank"><span class="iconify" data-icon="simple-icons:codepen"></span></a></div>
+
+                <div class="circle"><a id="profile-link3" href="https://www.codewars.com/users/KingaVandor" target="_blank"><span class="iconify" data-icon="simple-icons:codewars"></span></a></div>
+
+                <div class="circle"><a id="profile-link4" href="https://www.freecodecamp.org/fcc8c5be340-f8ea-48be-97b1-ab1d0f23d988" target="_blank"><span class="iconify" data-icon="simple-icons:freecodecamp"></span></a></div>
+
+                <div class="circle"><a id="profile-link5" href="https://www.codecademy.com/profiles/KingaVandor" target="_blank"><span class="iconify" data-icon="simple-icons:codecademy"></span></a></div>
+
+                <div class="circle"><a id="profile-link" href="https://github.com/KingaVandor" target="_blank"><span class="iconify" data-icon="fa-brands:github"></span></a></div>
+
+                <div class="circle"><a id="profile-link1" href="https://www.linkedin.com/in/kinga-vandor-30b31486/" target="_blank"><span class="iconify" data-icon="fa-brands:linkedin"></span></a></div>
+
+              </div>
             </div>
           </div>
         </div>
+      </section>
+
+    </main>
+
+    <section id="about-section">
+      <div class="about-container">
+        <div id="statement">
+          <div id="first">
+            <h3>After 16 years as a landscape architect I am now pursuing a second career as a software developer.</h3>
+          </div>
+          <div id="second">
+            <p>I started learning code last winter, following a move from London to Scotland, where opportunities in my original profession are limited, particularly on a senior level.</p>
+            <br>
+            <br>
+            <p>The initial necessity to learn something new soon became a choice. </p>
+            <br>
+            <br>
+            <p>I realized that I find studying code a fulfilling and exciting task that leaves more room for enjoyment than my old job did for a while.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <h3>transferable skills</h3>
+        <ul>
+          <li>project management, solving problems, following a brief, keeping deadlines, working in an agile environment</li>
+          <li>being able to present my design ideas and solutions with confidence, in front of a variety of clients and other stake holders; liaising with the client and other consultants; attending design team meetings</li>
+          <li>document management; version control (not Git); following company standards and best practices, creating drawing and document packages well organized, maintainable and transparent</li>
+          <li>setting up and maintaining drawings so they are as fast and light as possible; paying strong attention to detail  Lifelong learning – staying up-to date with several software packages, latest construction solutions, planting trends, sustainability,
+            regulations of different fields and their changes</li>
+          <li>Maths – I have studied mathematics for two years prior to switching subjects into landscape architecture; a skill particularly helpful when solving coding challenges.</li>
+        </ul>
+        <p>While continuing my studies, solving challenges and building my own projects, I now started applying for junior/trainee developer roles as new skills are best learnt through experience.</p>
+
+        <h3>programmes & languages</h3>
+        <ul>
+          <li>Coding – HTML5, CSS3, Bootstrap, Sass, JavaScript, jQuery, Git, GitHub</li>
+          <li>Architecture - AutoCAD (15 ys), Adobe Creative Suit (10 ys), Google Sketchup Pro (2 ys), Revit (1 yr)</li>
+        </ul>
+
+        <h3>education</h3>
+        <ul>
+          <li>2018-ongoing Codecademy, Web Developer Course </li>
+          <li>2018-ongoing FreeCodeCamp, Full Stack Developer Course </li>
+          <li>1998-2003 Landscape Architect MArch (ECTS A, Excellent)<br>Corvinus University Budapest, Faculty of Landscape Architecture</li>
+          <li>1996-1998 Mathematics, ELTE University of Science, Budapest<br>Studies unfinished</li>
+        </ul>
+
+        <h3>professional bodies</h3>
+        <ul>
+          <li>2016- Chartered member of the Landscape Institute in the UK</li>
+          <li>2009- Chartered Landscape Architect in Hungary </li>
+        </ul>
+
+        <h3 id="about-profiles">profiles</h3>
+
       </div>
     </section>
 
-  </main>
+  </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
 </body>
 
